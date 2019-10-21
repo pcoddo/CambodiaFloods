@@ -6,7 +6,6 @@
 This document contains the code used to generate a sample flood impact assessment based on the analysis found in Oddo *et al.* (2018), *Socioeconomic Impact Evaluation for Near Real-Time Flood Detection in the Lower Mekong River Basin.*
 
 
-
 ### Requirements ###
 * Python version 3.6.7
 	* Python environment from [Anaconda Distribution](https://www.anaconda.com/distribution/)
@@ -28,8 +27,14 @@ sys.path = ['', 'C:\\OSGeo4W64\\bin\\python36.zip', 'C:\\OSGeo4W64\\apps\\Python
 
 
 ### Structure ###
-* `1_Depth Estimation`: Estimates of inundation depths for Cambodia flooding case study
-* `2_Impact Assessment`: Intakes estimated inundation depths to produce a raster of provisional flood damages
+* **1_Depth Estimation**
+	* `main.py`: Intakes flood detection from "Data" file to produce estimates of inundation depths
+
+The workflow for this procedure is illustrated using the following schematic:
+![Workflow](https://github.com/pcoddo/CambodiaFloods/blob/master/Images/Workflow.png)
+
+* **2_Impact Assessment**
+	* `DamageExample.R`: Intakes estimated inundation depths to produce a raster of provisional flood damages
 
 ### Data Sources ###
 * Flood Extent Detection: [Dartmouth Flood Observatory](https://floodobservatory.colorado.edu/Events/4795/2019Cambodia4795.html)
