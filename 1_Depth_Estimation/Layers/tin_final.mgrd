@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.2">
+    <MODULE library="grid_filter" id="0" name="Simple Filter">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+        <CELLSIZE>90</CELLSIZE>
+        <XMIN>343383.53943160392</XMIN>
+        <XMAX>627963.5394316039</XMAX>
+        <YMIN>1259062.1037387704</YMIN>
+        <YMAX>1473172.10373877</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="METHOD" name="Filter" index="0">Smooth</OPTION>
+      <OPTION type="choice" id="MODE" name="Search Mode" index="0">Square</OPTION>
+      <OPTION type="integer" id="RADIUS" name="Radius">5</OPTION>
+      <INPUT type="grid" id="INPUT" name="Grid" system="PARAMETERS_GRID_SYSTEM">
+        <MODULE library="io_gdal" id="0" name="Import Raster">
+          <OPTION type="file" id="FILES" name="Files">"Layers\tin_full.sdat"</OPTION>
+          <OPTION type="text" id="SELECTION" name="Select from Multiple Bands"/>
+          <OPTION type="boolean" id="SELECT_SORT" name="Alphanumeric Sorting">TRUE</OPTION>
+          <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+          <OPTION type="choice" id="RESAMPLING" name="Resampling" index="3">B-Spline Interpolation</OPTION>
+          <OUTPUT type="grid_list" id="GRIDS" name="Grids">tin_full</OUTPUT>
+        </MODULE>
+      </INPUT>
+      <OUTPUT type="grid" id="RESULT" name="Filtered Grid">layer [Filter]</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE>Layers\tin_final.sgrd</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>PROJCS["WGS 84 / UTM zone 48N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",105],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32648"]]</OGC_WKT>
+      <PROJ4>+init=epsg:32648 +proj=tmerc +a=6378137.000000 +b=6356752.314245 +lat_0=0 +lon_0=105 +k_0=0.9996 +x_0=500000 +y_0=0 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>

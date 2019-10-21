@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.2">
+    <MODULE library="shapes_grid" id="0" name="Add Grid Values to Points">
+      <OPTION type="choice" id="RESAMPLING" name="Resampling" index="0">Nearest Neighbour</OPTION>
+      <INPUT type="shapes" id="SHAPES" name="Points">
+        <FILE>Layers\flood_chain.shp</FILE>
+      </INPUT>
+      <INPUT_LIST type="grid_list" id="GRIDS" name="Grids">
+        <demproj type="grid_list" id="GRIDS" name="Grids">
+          <FILE>C:/Users/poddo/AppData/Local/Temp/processing_38ea1877ac334737bd6db5ca1d0943e0/ded4fe0676f6414b9099b06ff22a83b7/demproj.sgrd</FILE>
+        </demproj>
+      </INPUT_LIST>
+      <OUTPUT type="shapes" id="RESULT" name="Result">flood_chain</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE></FILE>
+    <DATABASE>
+      <FIELDS>
+        <FIELD TYPE="LONGINT">DN</FIELD>
+        <FIELD TYPE="DOUBLE">area</FIELD>
+        <FIELD TYPE="LONGINT">order</FIELD>
+        <FIELD TYPE="DOUBLE">distance</FIELD>
+        <FIELD TYPE="DOUBLE">angle</FIELD>
+        <FIELD TYPE="DOUBLE">demproj</FIELD>
+      </FIELDS>
+    </DATABASE>
+    <PROJECTION></PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>

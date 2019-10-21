@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.2">
+    <MODULE library="grid_calculus" id="1" name="Grid Calculator">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+        <CELLSIZE>90</CELLSIZE>
+        <XMIN>343383.53940000001</XMIN>
+        <XMAX>627963.5394</XMAX>
+        <YMIN>1259062.1037</YMIN>
+        <YMAX>1473172.1037</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="RESAMPLING" name="Resampling" index="0">Nearest Neighbour</OPTION>
+      <OPTION type="text" id="FORMULA" name="Formula">a-b</OPTION>
+      <OPTION type="text" id="NAME" name="Name">Calculation</OPTION>
+      <OPTION type="boolean" id="FNAME" name="Take Formula">FALSE</OPTION>
+      <OPTION type="boolean" id="USE_NODATA" name="Use NoData">FALSE</OPTION>
+      <OPTION type="choice" id="TYPE" name="Data Type" index="7">4 byte floating point number</OPTION>
+      <INPUT_LIST type="grid_list" id="GRIDS" name="Grids" system="PARAMETERS_GRID_SYSTEM">
+        <layer type="grid_list" id="GRIDS" name="Grids" system="PARAMETERS_GRID_SYSTEM">
+          <FILE>C:/Users/poddo/AppData/Local/Temp/processing_0912fa12603049b68c690e41922f6c38/bea75b3ffd974d08baf8dc4c5855b411/layer.sgrd</FILE>
+        </layer>
+      </INPUT_LIST>
+      <INPUT_LIST type="grid_list" id="XGRIDS" name="Grids from different Systems">
+        <dem_clip type="grid_list" id="XGRIDS" name="Grids from different Systems">
+          <FILE>Layers\dem_clip.sgrd</FILE>
+        </dem_clip>
+        <layer type="grid_list" id="XGRIDS" name="Grids from different Systems">
+          <FILE>C:/Users/poddo/AppData/Local/Temp/processing_0912fa12603049b68c690e41922f6c38/b53b0888d1944ebbb1a3f72b261c3ae9/layer.sgrd</FILE>
+        </layer>
+      </INPUT_LIST>
+      <OUTPUT type="grid" id="RESULT" name="Result">Calculation</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE>Results\depth_full.sgrd</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION></PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
