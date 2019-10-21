@@ -13,7 +13,7 @@ This document contains the code used to generate a sample flood impact assessmen
 
 * QGIS version 3
 	* This analysis uses version 3.2.2 Bonn
-	* It has been tested using QGIS compiled from [OSGEO4W installer](https://qgis.org/en/site/forusers/download.html) (Standalone installer may not import properly)
+	* It has been tested using QGIS compiled from [OSGeo4W installer](https://qgis.org/en/site/forusers/download.html) (Standalone installer may not import properly)
 	* Specific locations of QGIS packages must be added to Python system path (see line 13 in `1_Depth_Estimation` > `Scripts` > `initialize.py`): 
 
 ```
