@@ -14,13 +14,17 @@ This document contains the code used to generate a sample flood impact assessmen
 * QGIS version 3
 	* This analysis uses version 3.2.2 Bonn
 	* It has been tested using QGIS compiled from [OSGEO4W installer](https://qgis.org/en/site/forusers/download.html) (Standalone installer may not import properly)
-	* Specific locations of QGIS packages must be added to Python system path (see line 13 in `1_Depth Estimation` > `Scripts` > `initialize.py`: 
+	* Specific locations of QGIS packages must be added to Python system path (see line 13 in `1_Depth_Estimation` > `Scripts` > `initialize.py`: 
 
 ```
 sys.path = ['', 'C:\\OSGeo4W64\\bin\\python36.zip', 'C:\\OSGeo4W64\\apps\\Python36\\DLLs', 'C:\\OSGeo4W64\\apps\\Python36\\lib', 'C:\\OSGeo4W64\\apps\\Python36', 'C:\\OSGeo4W64\\apps\\Python36\\lib\\site-packages', 'C:\\OSGeo4W64\\apps\\qgis\\python', 'C:\\OSGeo4W64\\apps\\qgis\\python\\plugins', 'C:\\OSGeo4W64\\apps\\qgis\\bin']`
 ```
-
-
+	* To test installation, run line 8 from `1_Depth_Estimation` > `DepthExample.py`
+		* Output should read:
+```
+In [1] from Scripts.initialize import *
+Qgis import successful!		
+```
 
 * R version 3.3.3
 	* Impact assessment produced in RStudio IDE
@@ -28,7 +32,7 @@ sys.path = ['', 'C:\\OSGeo4W64\\bin\\python36.zip', 'C:\\OSGeo4W64\\apps\\Python
 
 ### Structure ###
 * **1_Depth Estimation**
-	* `main.py`: Intakes flood detection from "Data" file to produce estimates of inundation depths
+	* `DepthExample.py`: Intakes flood detection from "Data" file to produce estimates of inundation depths
 
 The workflow for this procedure is illustrated using the following schematic:
 ![Workflow](https://github.com/pcoddo/CambodiaFloods/blob/master/Images/Workflow.png)
