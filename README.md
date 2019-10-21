@@ -22,6 +22,7 @@ sys.path = ['', 'C:\\OSGeo4W64\\bin\\python36.zip', 'C:\\OSGeo4W64\\apps\\Python
 ```
 
 To test installation, run line 8 from `1_Depth_Estimation` > `DepthExample.py`
+
 Output should read:
 
 ```python
@@ -50,5 +51,6 @@ The workflow for this procedure is illustrated using the following schematic:
 
 
 Author: [Perry Oddo](mailto:perry.oddo@nasas.gov)
+
 Copyright (2019)
 
