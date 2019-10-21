@@ -26,7 +26,7 @@ Output should read:
 
 ```python
 In [1] from Scripts.initialize import *
-Qgis import successful!		
+"Qgis import successful!"		
 ```
 
 * R version 3.3.3
