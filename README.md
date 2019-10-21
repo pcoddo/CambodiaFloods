@@ -18,10 +18,13 @@ This document contains the code used to generate a sample flood impact assessmen
 
 ```
 sys.path = ['', 'C:\\OSGeo4W64\\bin\\python36.zip', 'C:\\OSGeo4W64\\apps\\Python36\\DLLs', 'C:\\OSGeo4W64\\apps\\Python36\\lib', 'C:\\OSGeo4W64\\apps\\Python36', 'C:\\OSGeo4W64\\apps\\Python36\\lib\\site-packages', 'C:\\OSGeo4W64\\apps\\qgis\\python', 'C:\\OSGeo4W64\\apps\\qgis\\python\\plugins', 'C:\\OSGeo4W64\\apps\\qgis\\bin']`
+
 ```
-	* To test installation, run line 8 from `1_Depth_Estimation` > `DepthExample.py`
-		* Output should read:
-```
+
+To test installation, run line 8 from `1_Depth_Estimation` > `DepthExample.py`
+Output should read:
+
+```python
 In [1] from Scripts.initialize import *
 Qgis import successful!		
 ```
