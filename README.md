@@ -36,7 +36,7 @@ In [1] from Scripts.initialize import *
 
 ### Structure ###
 * **1_Depth Estimation**
-	* `DepthExample.py`: Intakes flood detection from "Data" file to produce estimates of inundation depths
+	* `DepthExample.py`: Intakes flood detection (flood_poly.shp) from "Data" folder to produce estimates of inundation depths
 
 The workflow for this procedure is illustrated using the following schematic:
 ![Workflow](https://github.com/pcoddo/CambodiaFloods/blob/master/Images/Workflow.png)
