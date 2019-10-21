@@ -39,8 +39,9 @@ The workflow for this procedure is illustrated using the following schematic:
 ### Data Sources ###
 * Flood Extent Detection: [Dartmouth Flood Observatory](https://floodobservatory.colorado.edu/Events/4795/2019Cambodia4795.html)
 * Digital Elevation Model (DEM): [Yamadai MERIT DEM](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/)
-* Land Use / Land Cover Map: [Regional Land Cover Monitoring System (RCLMS)](https://rlcms-servir.adpc.net/en/landcover/#)Author: 
+* Land Use / Land Cover Map: [Regional Land Cover Monitoring System (RCLMS)](https://rlcms-servir.adpc.net/en/landcover/#)
 
 
-Contact: [Perry Oddo](mailto:perry.oddo@nasas.gov)
+Author: [Perry Oddo](mailto:perry.oddo@nasas.gov)
+Copyright (2019)
 
