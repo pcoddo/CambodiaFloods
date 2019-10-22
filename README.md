@@ -3,7 +3,7 @@
 
 
 ### Introduction ###
-This document contains the code used to generate a sample flood impact assessment based on the analysis found in Oddo *et al.* (2018), *Socioeconomic Impact Evaluation for Near Real-Time Flood Detection in the Lower Mekong River Basin.*
+This document contains the code used to generate a sample flood impact assessment based on the analysis found in Oddo *et al.* (2018), *Socioeconomic Impact Evaluation for Near Real-Time Flood Detection in the Lower Mekong River Basin.* Case study based on flood event in Cambodia in September, 2019.
 
 
 ### Requirements ###
