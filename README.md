@@ -51,7 +51,7 @@ The workflow for this procedure is illustrated using the following schematic:
 * Land Use / Land Cover Map: [Regional Land Cover Monitoring System (RCLMS)](https://rlcms-servir.adpc.net/en/landcover/#)
 
 
-Author: [Perry Oddo](mailto:perry.oddo@nasas.gov)
+Author: [Perry Oddo](mailto:perry.oddo@nasa.gov)
 
 Copyright (2019)
 
