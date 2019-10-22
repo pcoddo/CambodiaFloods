@@ -7,12 +7,12 @@ This document contains the code used to generate a sample flood impact assessmen
 
 
 ### Requirements ###
-* Python version 3
+1. Python version 3
 	* This analysis uses version 3.6.7 (64 bit)
 	* Python environment from [Anaconda Distribution](https://www.anaconda.com/distribution/#download-section)
 	* Environment file included as `flood_env.yml`
 
-* QGIS version 3
+2. QGIS version 3
 	* This analysis uses version 3.2.2 Bonn (64 bit)
 	* It has been tested using QGIS compiled from [OSGeo4W installer](https://qgis.org/en/site/forusers/download.html) (Standalone installer may not import properly)
 	* Specific locations of QGIS packages must be added to Python system path (see line 13 in `1_Depth_Estimation` > `Scripts` > `initialize.py`): 
@@ -31,8 +31,8 @@ In [1] from Scripts.initialize import *
 "Qgis import successful!"		
 ```
 
-* R version 3.3.3
-	* Impact assessment produced in RStudio IDE
+3. R version [3.3.3](https://cran.r-project.org/bin/windows/base/old/3.3.3/)
+	* Impact assessment produced using [RStudio](https://rstudio.com/products/rstudio/download/) IDE but is not required 
 
 
 ### Structure ###
